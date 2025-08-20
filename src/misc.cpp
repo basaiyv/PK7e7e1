@@ -127,7 +127,7 @@ class Logger {
 //      Pikafish version
 std::string engine_version_info() {
     std::stringstream ss;
-    ss << "PikafishA " << version << std::setfill('0');
+    ss << "PikafishB " << version << std::setfill('0');
 
     if constexpr (version == "dev")
     {
